@@ -6,7 +6,7 @@ Shared, Telugu-first meal planning for a household master and cook. One codebase
 
 - Master creates a household, gets a six-digit invite code, chooses each meal, filters groceries for today/tomorrow/week, replans a week and reviews service history.
 - Cook joins with the household code and Cook PIN, sees the next task with time, recipients, ingredients and prep, receives local reminders, reviews tomorrow's prep, records service, undoes mistakes and reports problems.
-- Menus avoid same-week repeats, preserve started/served meals, include a dry vegetable and Rasam/Kattu at lunch, and calculate groceries from confirmed meals.
+- Menus avoid repeating the exact dish within 14 days, while treating genuine variants such as plain, masala and rava dosa separately. Started/served meals stay fixed. Lunch includes a dry vegetable plus Rasam, Kattu or Sambar for elders.
 - Every recipe includes two trusted YouTube source searches (Hebbars Kitchen and HomeCookingShow).
 - Telugu, English and Hindi UI; local cached plan; Android local reminders; synchronized data across separate phones.
 
