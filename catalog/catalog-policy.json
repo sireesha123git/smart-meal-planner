@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "2026.09",
+  "reviewedAt": "2026-09-16",
+  "refreshIntervalMonths": 6,
+  "languages": ["en", "te", "hi"],
+  "minimumRecipesPerMealSlot": 14,
+  "vegetableExpansionTarget": {
+    "market": "Bengaluru seasonal household vegetables",
+    "dryRecipesPerVegetable": 6,
+    "gravyRecipesPerVegetable": 6,
+    "requiredRegionalMix": ["South Indian", "North Indian"],
+    "status": "incremental target"
+  },
+  "snackExpansionTarget": {
+    "scope": "India and world",
+    "kidFriendly": true,
+    "minimumCountriesOrRegions": 8
+  },
+  "sourcePolicy": "Curated recipes only. Keep two reputable learning links per recipe and record the date checked."
+}

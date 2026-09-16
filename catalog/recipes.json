@@ -1,0 +1,2361 @@
+[
+  {
+    "id": "idli",
+    "slot": "breakfast",
+    "name": {
+      "en": "Idli Sambar",
+      "te": "ఇడ్లీ సాంబార్",
+      "hi": "इडली सांभर"
+    },
+    "cook": 30,
+    "lead": 480,
+    "prep": {
+      "en": "Ferment batter ahead",
+      "te": "పిండి ముందుగా పులియబెట్టండి",
+      "hi": "घोल पहले तैयार करें"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Idli batter",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "Sambar",
+        "qty": 150,
+        "unit": "ml"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Idli%20Sambar%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Idli%20Sambar%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "pesarattu",
+    "slot": "breakfast",
+    "name": {
+      "en": "Pesarattu",
+      "te": "పెసరట్టు",
+      "hi": "पेसरट्टू"
+    },
+    "cook": 25,
+    "lead": 360,
+    "prep": {
+      "en": "Soak mung ahead",
+      "te": "పెసలు ముందుగా నానబెట్టండి",
+      "hi": "मूंग पहले भिगोएं"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Whole mung",
+        "qty": 70,
+        "unit": "g"
+      },
+      {
+        "name": "Rice",
+        "qty": 15,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Pesarattu%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Pesarattu%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "poha",
+    "slot": "breakfast",
+    "name": {
+      "en": "Vegetable poha",
+      "te": "అటుకుల ఉప్మా",
+      "hi": "वेज पोहा"
+    },
+    "cook": 20,
+    "lead": 0,
+    "prep": {
+      "en": "Wash and chop vegetables",
+      "te": "కూరగాయలు కడిగి తరగండి",
+      "hi": "सब्ज़ियां धोकर काटें"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Poha",
+        "qty": 70,
+        "unit": "g"
+      },
+      {
+        "name": "Mixed vegetables",
+        "qty": 60,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Vegetable%20poha%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Vegetable%20poha%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "uttapam",
+    "slot": "breakfast",
+    "name": {
+      "en": "Vegetable uttapam",
+      "te": "వెజ్ ఊతప్పం",
+      "hi": "वेज उत्तपम"
+    },
+    "cook": 25,
+    "lead": 480,
+    "prep": {
+      "en": "Ferment batter ahead",
+      "te": "పిండి ముందుగా పులియబెట్టండి",
+      "hi": "घोल पहले तैयार करें"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Dosa batter",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "Mixed vegetables",
+        "qty": 60,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Vegetable%20uttapam%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Vegetable%20uttapam%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "pongal",
+    "slot": "breakfast",
+    "name": {
+      "en": "Ven pongal",
+      "te": "పొంగలి",
+      "hi": "पोंगल"
+    },
+    "cook": 30,
+    "lead": 0,
+    "prep": {
+      "en": "Wash rice and dal",
+      "te": "బియ్యం పప్పు కడగండి",
+      "hi": "चावल और दाल धोएं"
+    },
+    "allergens": [
+      "milk"
+    ],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Moong dal",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Ghee",
+        "qty": 5,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Ven%20pongal%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Ven%20pongal%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "sandwich",
+    "slot": "breakfast",
+    "name": {
+      "en": "Vegetable sandwich",
+      "te": "వెజ్ సాండ్‌విచ్",
+      "hi": "वेज सैंडविच"
+    },
+    "cook": 20,
+    "lead": 0,
+    "prep": {
+      "en": "Chop vegetables",
+      "te": "కూరగాయలు తరగండి",
+      "hi": "सब्ज़ियां काटें"
+    },
+    "allergens": [
+      "wheat"
+    ],
+    "ingredients": [
+      {
+        "name": "Bread",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Mixed vegetables",
+        "qty": 80,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Vegetable%20sandwich%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Vegetable%20sandwich%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "dhokla",
+    "slot": "breakfast",
+    "name": {
+      "en": "Dhokla",
+      "te": "ఢోక్లా",
+      "hi": "ढोकला"
+    },
+    "cook": 35,
+    "lead": 0,
+    "prep": {
+      "en": "Prepare steamer",
+      "te": "ఆవిరి పాత్ర సిద్ధం చేయండి",
+      "hi": "स्टीमर तैयार करें"
+    },
+    "allergens": [
+      "milk"
+    ],
+    "ingredients": [
+      {
+        "name": "Gram flour",
+        "qty": 70,
+        "unit": "g"
+      },
+      {
+        "name": "Curd",
+        "qty": 30,
+        "unit": "ml"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Dhokla%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Dhokla%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "ragi",
+    "slot": "breakfast",
+    "name": {
+      "en": "Ragi dosa",
+      "te": "రాగి దోశ",
+      "hi": "रागी डोसा"
+    },
+    "cook": 25,
+    "lead": 0,
+    "prep": {
+      "en": "Mix batter",
+      "te": "పిండి కలపండి",
+      "hi": "घोल मिलाएं"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Ragi flour",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Rice flour",
+        "qty": 30,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Ragi%20dosa%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Ragi%20dosa%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "pappu",
+    "slot": "lunch",
+    "name": {
+      "en": "Rice & pappu",
+      "te": "అన్నం & పప్పు",
+      "hi": "चावल और दाल"
+    },
+    "cook": 35,
+    "lead": 0,
+    "prep": {
+      "en": "Cook dal",
+      "te": "పప్పు ఉడికించండి",
+      "hi": "दाल पकाएं"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "qty": 75,
+        "unit": "g"
+      },
+      {
+        "name": "Toor dal",
+        "qty": 40,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Rice%20%26%20pappu%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Rice%20%26%20pappu%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "pulao",
+    "slot": "lunch",
+    "name": {
+      "en": "Vegetable pulao",
+      "te": "వెజ్ పులావ్",
+      "hi": "वेज पुलाव"
+    },
+    "cook": 35,
+    "lead": 0,
+    "prep": {
+      "en": "Wash rice; chop vegetables",
+      "te": "బియ్యం కడిగి కూరగాయలు తరగండి",
+      "hi": "चावल धोएं; सब्ज़ियां काटें"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Mixed vegetables",
+        "qty": 100,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Vegetable%20pulao%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Vegetable%20pulao%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "sambar-rice",
+    "slot": "lunch",
+    "name": {
+      "en": "Sambar rice",
+      "te": "సాంబార్ అన్నం",
+      "hi": "सांभर चावल"
+    },
+    "cook": 40,
+    "lead": 0,
+    "prep": {
+      "en": "Cook dal and vegetables",
+      "te": "పప్పు కూరగాయలు ఉడికించండి",
+      "hi": "दाल और सब्ज़ियां पकाएं"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "qty": 70,
+        "unit": "g"
+      },
+      {
+        "name": "Toor dal",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Mixed vegetables",
+        "qty": 80,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Sambar%20rice%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Sambar%20rice%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "lemon-rice",
+    "slot": "lunch",
+    "name": {
+      "en": "Lemon rice",
+      "te": "నిమ్మకాయ అన్నం",
+      "hi": "नींबू चावल"
+    },
+    "cook": 25,
+    "lead": 0,
+    "prep": {
+      "en": "Cook rice",
+      "te": "అన్నం వండండి",
+      "hi": "चावल पकाएं"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Lemon",
+        "qty": 0.5,
+        "unit": "piece"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Lemon%20rice%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Lemon%20rice%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "curd-rice",
+    "slot": "lunch",
+    "name": {
+      "en": "Curd rice",
+      "te": "పెరుగు అన్నం",
+      "hi": "दही चावल"
+    },
+    "cook": 25,
+    "lead": 0,
+    "prep": {
+      "en": "Cook and cool rice",
+      "te": "అన్నం వండి చల్లార్చండి",
+      "hi": "चावल पकाकर ठंडा करें"
+    },
+    "allergens": [
+      "milk"
+    ],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "qty": 70,
+        "unit": "g"
+      },
+      {
+        "name": "Curd",
+        "qty": 120,
+        "unit": "ml"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Curd%20rice%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Curd%20rice%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "chole",
+    "slot": "lunch",
+    "name": {
+      "en": "Chole & rice",
+      "te": "చోలే & అన్నం",
+      "hi": "छोले चावल"
+    },
+    "cook": 45,
+    "lead": 480,
+    "prep": {
+      "en": "Soak chickpeas ahead",
+      "te": "శనగలు ముందుగా నానబెట్టండి",
+      "hi": "चना पहले भिगोएं"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Chickpeas",
+        "qty": 70,
+        "unit": "g"
+      },
+      {
+        "name": "Rice",
+        "qty": 70,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Chole%20%26%20rice%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Chole%20%26%20rice%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "biryani",
+    "slot": "lunch",
+    "name": {
+      "en": "Vegetable biryani",
+      "te": "వెజ్ బిర్యానీ",
+      "hi": "वेज बिरयानी"
+    },
+    "cook": 45,
+    "lead": 0,
+    "prep": {
+      "en": "Chop vegetables",
+      "te": "కూరగాయలు తరగండి",
+      "hi": "सब्ज़ियां काटें"
+    },
+    "allergens": [
+      "milk"
+    ],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Mixed vegetables",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "Curd",
+        "qty": 30,
+        "unit": "ml"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Vegetable%20biryani%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Vegetable%20biryani%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "tomato-rice",
+    "slot": "lunch",
+    "name": {
+      "en": "Tomato rice",
+      "te": "టమాటా అన్నం",
+      "hi": "टमाटर चावल"
+    },
+    "cook": 30,
+    "lead": 0,
+    "prep": {
+      "en": "Chop tomatoes",
+      "te": "టమాటాలు తరగండి",
+      "hi": "टमाटर काटें"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Tomato",
+        "qty": 100,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Tomato%20rice%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Tomato%20rice%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "fruit",
+    "slot": "snack",
+    "name": {
+      "en": "Fruit salad",
+      "te": "పండ్ల సలాడ్",
+      "hi": "फ्रूट सलाद"
+    },
+    "cook": 15,
+    "lead": 0,
+    "prep": {
+      "en": "Wash and cut fruit",
+      "te": "పండ్లు కడిగి కోయండి",
+      "hi": "फल धोकर काटें"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Seasonal fruit",
+        "qty": 150,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Fruit%20salad%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Fruit%20salad%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "corn",
+    "slot": "snack",
+    "name": {
+      "en": "Corn chaat",
+      "te": "మొక్కజొన్న చాట్",
+      "hi": "कॉर्न चाट"
+    },
+    "cook": 15,
+    "lead": 0,
+    "prep": {
+      "en": "Cook corn",
+      "te": "మొక్కజొన్న ఉడికించండి",
+      "hi": "मकई पकाएं"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Sweetcorn",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "Tomato",
+        "qty": 30,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Corn%20chaat%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Corn%20chaat%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "quesadilla",
+    "slot": "snack",
+    "name": {
+      "en": "Mini vegetable quesadilla",
+      "te": "మినీ వెజ్ కెసడిల్లా",
+      "hi": "मिनी वेज केसडिया"
+    },
+    "cook": 25,
+    "lead": 0,
+    "prep": {
+      "en": "Chop vegetables",
+      "te": "కూరగాయలు తరగండి",
+      "hi": "सब्ज़ियां काटें"
+    },
+    "allergens": [
+      "milk",
+      "wheat"
+    ],
+    "ingredients": [
+      {
+        "name": "Tortilla",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Cheese",
+        "qty": 25,
+        "unit": "g"
+      },
+      {
+        "name": "Mixed vegetables",
+        "qty": 60,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Mini%20vegetable%20quesadilla%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Mini%20vegetable%20quesadilla%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "hummus",
+    "slot": "snack",
+    "name": {
+      "en": "Hummus & pita",
+      "te": "హమ్మస్ & పిటా",
+      "hi": "हम्मस और पीटा"
+    },
+    "cook": 20,
+    "lead": 480,
+    "prep": {
+      "en": "Soak and cook chickpeas ahead",
+      "te": "శనగలు నానబెట్టి ఉడికించండి",
+      "hi": "चना भिगोकर पकाएं"
+    },
+    "allergens": [
+      "sesame",
+      "wheat"
+    ],
+    "ingredients": [
+      {
+        "name": "Chickpeas",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Pita bread",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Tahini",
+        "qty": 10,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Hummus%20%26%20pita%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Hummus%20%26%20pita%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "sushi",
+    "slot": "snack",
+    "name": {
+      "en": "Vegetable sushi rolls",
+      "te": "వెజ్ సుషి రోల్స్",
+      "hi": "वेज सुशी रोल"
+    },
+    "cook": 30,
+    "lead": 0,
+    "prep": {
+      "en": "Cook rice; cut vegetables",
+      "te": "అన్నం వండి కూరగాయలు కోయండి",
+      "hi": "चावल पकाएं; सब्ज़ियां काटें"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Cucumber",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Carrot",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Nori",
+        "qty": 1,
+        "unit": "piece"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Vegetable%20sushi%20rolls%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Vegetable%20sushi%20rolls%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "pancake",
+    "slot": "snack",
+    "name": {
+      "en": "Mini banana pancakes",
+      "te": "మినీ అరటి పాన్‌కేక్స్",
+      "hi": "मिनी केला पैनकेक"
+    },
+    "cook": 25,
+    "lead": 0,
+    "prep": {
+      "en": "Mash banana; mix batter",
+      "te": "అరటి మెదిపి పిండి కలపండి",
+      "hi": "केला मसलें; घोल मिलाएं"
+    },
+    "allergens": [
+      "wheat",
+      "milk"
+    ],
+    "ingredients": [
+      {
+        "name": "Wheat flour",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Banana",
+        "qty": 0.5,
+        "unit": "piece"
+      },
+      {
+        "name": "Milk",
+        "qty": 60,
+        "unit": "ml"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Mini%20banana%20pancakes%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Mini%20banana%20pancakes%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "falafel",
+    "slot": "snack",
+    "name": {
+      "en": "Baked falafel bites",
+      "te": "బేక్డ్ ఫలాఫెల్",
+      "hi": "बेक्ड फलाफेल"
+    },
+    "cook": 40,
+    "lead": 480,
+    "prep": {
+      "en": "Soak chickpeas ahead",
+      "te": "శనగలు ముందుగా నానబెట్టండి",
+      "hi": "चना पहले भिगोएं"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Chickpeas",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "qty": 20,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Baked%20falafel%20bites%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Baked%20falafel%20bites%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "sweet-potato",
+    "slot": "snack",
+    "name": {
+      "en": "Roasted sweet potato",
+      "te": "చిలగడదుంప వేపుడు",
+      "hi": "भुनी शकरकंद"
+    },
+    "cook": 35,
+    "lead": 0,
+    "prep": {
+      "en": "Wash and cut sweet potato",
+      "te": "చిలగడదుంప కడిగి కోయండి",
+      "hi": "शकरकंद धोकर काटें"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Sweet potato",
+        "qty": 150,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Roasted%20sweet%20potato%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Roasted%20sweet%20potato%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "upma",
+    "slot": "dinner",
+    "name": {
+      "en": "Upma & curd",
+      "te": "ఉప్మా & పెరుగు",
+      "hi": "उपमा और दही"
+    },
+    "cook": 25,
+    "lead": 0,
+    "prep": {
+      "en": "Chop vegetables",
+      "te": "కూరగాయలు తరగండి",
+      "hi": "सब्ज़ियां काटें"
+    },
+    "allergens": [
+      "wheat",
+      "milk"
+    ],
+    "ingredients": [
+      {
+        "name": "Semolina",
+        "qty": 65,
+        "unit": "g"
+      },
+      {
+        "name": "Mixed vegetables",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Curd",
+        "qty": 80,
+        "unit": "ml"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Upma%20%26%20curd%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Upma%20%26%20curd%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "roti",
+    "slot": "dinner",
+    "name": {
+      "en": "Roti & vegetable curry",
+      "te": "రోటీ & కూర",
+      "hi": "रोटी और सब्ज़ी"
+    },
+    "cook": 35,
+    "lead": 20,
+    "prep": {
+      "en": "Knead dough",
+      "te": "పిండి కలపండి",
+      "hi": "आटा गूंथें"
+    },
+    "allergens": [
+      "wheat"
+    ],
+    "ingredients": [
+      {
+        "name": "Wheat flour",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Mixed vegetables",
+        "qty": 150,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Roti%20%26%20vegetable%20curry%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Roti%20%26%20vegetable%20curry%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "soup",
+    "slot": "dinner",
+    "name": {
+      "en": "Vegetable soup & toast",
+      "te": "వెజ్ సూప్ & టోస్ట్",
+      "hi": "वेज सूप और टोस्ट"
+    },
+    "cook": 30,
+    "lead": 0,
+    "prep": {
+      "en": "Chop vegetables",
+      "te": "కూరగాయలు తరగండి",
+      "hi": "सब्ज़ियां काटें"
+    },
+    "allergens": [
+      "wheat"
+    ],
+    "ingredients": [
+      {
+        "name": "Mixed vegetables",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "Bread",
+        "qty": 60,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Vegetable%20soup%20%26%20toast%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Vegetable%20soup%20%26%20toast%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "khichdi",
+    "slot": "dinner",
+    "name": {
+      "en": "Vegetable khichdi",
+      "te": "వెజ్ కిచిడీ",
+      "hi": "वेज खिचड़ी"
+    },
+    "cook": 30,
+    "lead": 0,
+    "prep": {
+      "en": "Wash rice and dal",
+      "te": "బియ్యం పప్పు కడగండి",
+      "hi": "चावल और दाल धोएं"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Moong dal",
+        "qty": 35,
+        "unit": "g"
+      },
+      {
+        "name": "Mixed vegetables",
+        "qty": 80,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Vegetable%20khichdi%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Vegetable%20khichdi%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "idiyappam",
+    "slot": "dinner",
+    "name": {
+      "en": "Idiyappam & vegetable stew",
+      "te": "ఇడియప్పం & వెజ్ స్టూ",
+      "hi": "इडियप्पम और वेज स्टू"
+    },
+    "cook": 40,
+    "lead": 0,
+    "prep": {
+      "en": "Prepare dough and vegetables",
+      "te": "పిండి కూరగాయలు సిద్ధం చేయండి",
+      "hi": "आटा और सब्ज़ियां तैयार करें"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Rice flour",
+        "qty": 70,
+        "unit": "g"
+      },
+      {
+        "name": "Mixed vegetables",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "Coconut milk",
+        "qty": 60,
+        "unit": "ml"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Idiyappam%20%26%20vegetable%20stew%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Idiyappam%20%26%20vegetable%20stew%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "dosa",
+    "slot": "dinner",
+    "name": {
+      "en": "Dosa & coconut chutney",
+      "te": "దోశ & కొబ్బరి పచ్చడి",
+      "hi": "डोसा और नारियल चटनी"
+    },
+    "cook": 30,
+    "lead": 480,
+    "prep": {
+      "en": "Ferment batter ahead",
+      "te": "పిండి ముందుగా పులియబెట్టండి",
+      "hi": "घोल पहले तैयार करें"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Dosa batter",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "Coconut",
+        "qty": 35,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Dosa%20%26%20coconut%20chutney%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Dosa%20%26%20coconut%20chutney%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "appam",
+    "slot": "dinner",
+    "name": {
+      "en": "Appam & vegetable stew",
+      "te": "అప్పం & వెజ్ స్టూ",
+      "hi": "अप्पम और वेज स्टू"
+    },
+    "cook": 35,
+    "lead": 480,
+    "prep": {
+      "en": "Ferment batter ahead",
+      "te": "పిండి ముందుగా పులియబెట్టండి",
+      "hi": "घोल पहले तैयार करें"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Appam batter",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "Mixed vegetables",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Coconut milk",
+        "qty": 60,
+        "unit": "ml"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Appam%20%26%20vegetable%20stew%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Appam%20%26%20vegetable%20stew%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "millet",
+    "slot": "dinner",
+    "name": {
+      "en": "Millet vegetable pongal",
+      "te": "చిరుధాన్య పొంగలి",
+      "hi": "मिलेट पोंगल"
+    },
+    "cook": 35,
+    "lead": 0,
+    "prep": {
+      "en": "Wash millet and dal",
+      "te": "చిరుధాన్యం పప్పు కడగండి",
+      "hi": "मिलेट और दाल धोएं"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Millet",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Moong dal",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Mixed vegetables",
+        "qty": 70,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Millet%20vegetable%20pongal%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Millet%20vegetable%20pongal%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "masala-dosa-b",
+    "slot": "breakfast",
+    "name": {
+      "en": "Masala dosa",
+      "te": "మసాలా దోశ",
+      "hi": "मसाला डोसा"
+    },
+    "cook": 35,
+    "lead": 480,
+    "prep": {
+      "en": "Ferment batter; boil potatoes",
+      "te": "పిండి పులియబెట్టి బంగాళాదుంప ఉడికించండి",
+      "hi": "घोल खमीर करें; आलू उबालें"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Dosa batter",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "Potato",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "qty": 20,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Masala%20dosa%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Masala%20dosa%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "rava-dosa-b",
+    "slot": "breakfast",
+    "name": {
+      "en": "Rava dosa",
+      "te": "రవ్వ దోశ",
+      "hi": "रवा डोसा"
+    },
+    "cook": 30,
+    "lead": 30,
+    "prep": {
+      "en": "Mix a thin batter 30 minutes ahead",
+      "te": "30 నిమిషాల ముందు పలుచని పిండి కలపండి",
+      "hi": "30 मिनट पहले पतला घोल बनाएं"
+    },
+    "allergens": [
+      "wheat"
+    ],
+    "ingredients": [
+      {
+        "name": "Semolina",
+        "qty": 70,
+        "unit": "g"
+      },
+      {
+        "name": "Rice flour",
+        "qty": 35,
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "qty": 20,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Rava%20dosa%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Rava%20dosa%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "oats-upma",
+    "slot": "breakfast",
+    "name": {
+      "en": "Oats vegetable upma",
+      "te": "ఓట్స్ వెజ్ ఉప్మా",
+      "hi": "ओट्स वेज उपमा"
+    },
+    "cook": 20,
+    "lead": 0,
+    "prep": {
+      "en": "Chop vegetables",
+      "te": "కూరగాయలు తరగండి",
+      "hi": "सब्ज़ियां काटें"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Oats",
+        "qty": 70,
+        "unit": "g"
+      },
+      {
+        "name": "Mixed vegetables",
+        "qty": 70,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Oats%20vegetable%20upma%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Oats%20vegetable%20upma%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "semiya",
+    "slot": "breakfast",
+    "name": {
+      "en": "Vegetable semiya",
+      "te": "వెజిటబుల్ సేమియా",
+      "hi": "वेज सेवई"
+    },
+    "cook": 25,
+    "lead": 0,
+    "prep": {
+      "en": "Chop vegetables; roast vermicelli",
+      "te": "కూరగాయలు తరిగి సేమియా వేయించండి",
+      "hi": "सब्ज़ियां काटें; सेवई भूनें"
+    },
+    "allergens": [
+      "wheat"
+    ],
+    "ingredients": [
+      {
+        "name": "Vermicelli",
+        "qty": 70,
+        "unit": "g"
+      },
+      {
+        "name": "Mixed vegetables",
+        "qty": 70,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Vegetable%20semiya%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Vegetable%20semiya%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "aloo-paratha",
+    "slot": "breakfast",
+    "name": {
+      "en": "Aloo paratha & curd",
+      "te": "ఆలూ పరాఠా & పెరుగు",
+      "hi": "आलू पराठा और दही"
+    },
+    "cook": 35,
+    "lead": 0,
+    "prep": {
+      "en": "Boil potatoes; knead dough",
+      "te": "బంగాళాదుంప ఉడికించి పిండి కలపండి",
+      "hi": "आलू उबालें; आटा गूंथें"
+    },
+    "allergens": [
+      "wheat",
+      "milk"
+    ],
+    "ingredients": [
+      {
+        "name": "Wheat flour",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Potato",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Curd",
+        "qty": 60,
+        "unit": "ml"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Aloo%20paratha%20%26%20curd%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Aloo%20paratha%20%26%20curd%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "set-dosa",
+    "slot": "breakfast",
+    "name": {
+      "en": "Set dosa & vegetable saagu",
+      "te": "సెట్ దోశ & సాగు",
+      "hi": "सेट डोसा और सागू"
+    },
+    "cook": 35,
+    "lead": 480,
+    "prep": {
+      "en": "Ferment batter; chop vegetables",
+      "te": "పిండి పులియబెట్టి కూరగాయలు తరగండి",
+      "hi": "घोल खमीर करें; सब्ज़ियां काटें"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Dosa batter",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "Mixed vegetables",
+        "qty": 100,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Set%20dosa%20%26%20vegetable%20saagu%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Set%20dosa%20%26%20vegetable%20saagu%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "palak-dal",
+    "slot": "lunch",
+    "name": {
+      "en": "Rice & palak dal",
+      "te": "అన్నం & పాలకూర పప్పు",
+      "hi": "चावल और पालक दाल"
+    },
+    "cook": 35,
+    "lead": 0,
+    "prep": {
+      "en": "Wash spinach; cook dal",
+      "te": "పాలకూర కడిగి పప్పు ఉడికించండి",
+      "hi": "पालक धोएं; दाल पकाएं"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "qty": 75,
+        "unit": "g"
+      },
+      {
+        "name": "Toor dal",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Spinach",
+        "qty": 80,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Rice%20%26%20palak%20dal%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Rice%20%26%20palak%20dal%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "rajma",
+    "slot": "lunch",
+    "name": {
+      "en": "Rajma & rice",
+      "te": "రాజ్మా & అన్నం",
+      "hi": "राजमा चावल"
+    },
+    "cook": 45,
+    "lead": 480,
+    "prep": {
+      "en": "Soak kidney beans overnight",
+      "te": "రాజ్మా రాత్రంతా నానబెట్టండి",
+      "hi": "राजमा रात भर भिगोएं"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Kidney beans",
+        "qty": 70,
+        "unit": "g"
+      },
+      {
+        "name": "Rice",
+        "qty": 70,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Rajma%20%26%20rice%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Rajma%20%26%20rice%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "coconut-rice",
+    "slot": "lunch",
+    "name": {
+      "en": "Coconut rice",
+      "te": "కొబ్బరి అన్నం",
+      "hi": "नारियल चावल"
+    },
+    "cook": 30,
+    "lead": 0,
+    "prep": {
+      "en": "Cook rice; grate coconut",
+      "te": "అన్నం వండి కొబ్బరి తురమండి",
+      "hi": "चावल पकाएं; नारियल कद्दूकस करें"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Coconut",
+        "qty": 40,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Coconut%20rice%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Coconut%20rice%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "veg-kurma-rice",
+    "slot": "lunch",
+    "name": {
+      "en": "Rice & vegetable kurma",
+      "te": "అన్నం & వెజ్ కుర్మా",
+      "hi": "चावल और वेज कुरमा"
+    },
+    "cook": 40,
+    "lead": 0,
+    "prep": {
+      "en": "Chop vegetables; prepare masala",
+      "te": "కూరగాయలు తరిగి మసాలా సిద్ధం చేయండి",
+      "hi": "सब्ज़ियां काटें; मसाला तैयार करें"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "qty": 75,
+        "unit": "g"
+      },
+      {
+        "name": "Mixed vegetables",
+        "qty": 140,
+        "unit": "g"
+      },
+      {
+        "name": "Coconut",
+        "qty": 25,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Rice%20%26%20vegetable%20kurma%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Rice%20%26%20vegetable%20kurma%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "tamarind-rice",
+    "slot": "lunch",
+    "name": {
+      "en": "Tamarind rice",
+      "te": "పులిహోర",
+      "hi": "इमली चावल"
+    },
+    "cook": 30,
+    "lead": 0,
+    "prep": {
+      "en": "Cook rice; soak tamarind",
+      "te": "అన్నం వండి చింతపండు నానబెట్టండి",
+      "hi": "चावल पकाएं; इमली भिगोएं"
+    },
+    "allergens": [
+      "peanut"
+    ],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Tamarind",
+        "qty": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Peanuts",
+        "qty": 15,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Tamarind%20rice%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Tamarind%20rice%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "methi-rice",
+    "slot": "lunch",
+    "name": {
+      "en": "Methi vegetable rice",
+      "te": "మెంతికూర వెజ్ రైస్",
+      "hi": "मेथी वेज चावल"
+    },
+    "cook": 35,
+    "lead": 0,
+    "prep": {
+      "en": "Clean greens; chop vegetables",
+      "te": "ఆకుకూర శుభ్రం చేసి కూరగాయలు తరగండి",
+      "hi": "मेथी साफ करें; सब्ज़ियां काटें"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Rice",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Fenugreek leaves",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Mixed vegetables",
+        "qty": 80,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Methi%20vegetable%20rice%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Methi%20vegetable%20rice%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "momos",
+    "slot": "snack",
+    "name": {
+      "en": "Vegetable momos",
+      "te": "వెజిటబుల్ మోమోస్",
+      "hi": "वेज मोमोज"
+    },
+    "cook": 40,
+    "lead": 0,
+    "prep": {
+      "en": "Make dough; finely chop filling",
+      "te": "పిండి కలిపి పూరణ తరగండి",
+      "hi": "आटा बनाएं; भरावन बारीक काटें"
+    },
+    "allergens": [
+      "wheat"
+    ],
+    "ingredients": [
+      {
+        "name": "Wheat flour",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Cabbage",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Carrot",
+        "qty": 40,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Vegetable%20momos%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Vegetable%20momos%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "bruschetta",
+    "slot": "snack",
+    "name": {
+      "en": "Tomato bruschetta",
+      "te": "టమాటా బ్రుషెట్టా",
+      "hi": "टोमैटो ब्रुशेटा"
+    },
+    "cook": 20,
+    "lead": 0,
+    "prep": {
+      "en": "Dice tomatoes",
+      "te": "టమాటాలు చిన్నగా తరగండి",
+      "hi": "टमाटर बारीक काटें"
+    },
+    "allergens": [
+      "wheat"
+    ],
+    "ingredients": [
+      {
+        "name": "Bread",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Tomato",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Basil",
+        "qty": 5,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Tomato%20bruschetta%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Tomato%20bruschetta%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "rice-paper-rolls",
+    "slot": "snack",
+    "name": {
+      "en": "Vegetable rice paper rolls",
+      "te": "వెజ్ రైస్ పేపర్ రోల్స్",
+      "hi": "वेज राइस पेपर रोल"
+    },
+    "cook": 25,
+    "lead": 0,
+    "prep": {
+      "en": "Julienne vegetables",
+      "te": "కూరగాయలు సన్నగా కోయండి",
+      "hi": "सब्ज़ियां पतली काटें"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Rice paper",
+        "qty": 3,
+        "unit": "piece"
+      },
+      {
+        "name": "Cucumber",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Carrot",
+        "qty": 40,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Vegetable%20rice%20paper%20rolls%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Vegetable%20rice%20paper%20rolls%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "potato-wedges",
+    "slot": "snack",
+    "name": {
+      "en": "Baked potato wedges",
+      "te": "బేక్డ్ పొటాటో వెడ్జెస్",
+      "hi": "बेक्ड पोटैटो वेजेस"
+    },
+    "cook": 35,
+    "lead": 0,
+    "prep": {
+      "en": "Wash, cut and season potatoes",
+      "te": "బంగాళాదుంప కడిగి కోసి మసాలా వేయండి",
+      "hi": "आलू धोकर काटें और मसाला लगाएं"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Potato",
+        "qty": 160,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Baked%20potato%20wedges%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Baked%20potato%20wedges%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "sprouts-chaat",
+    "slot": "snack",
+    "name": {
+      "en": "Sprouts chaat",
+      "te": "మొలకల చాట్",
+      "hi": "स्प्राउट्स चाट"
+    },
+    "cook": 15,
+    "lead": 480,
+    "prep": {
+      "en": "Soak and sprout mung ahead",
+      "te": "పెసలు నానబెట్టి మొలకలు సిద్ధం చేయండి",
+      "hi": "मूंग भिगोकर अंकुरित करें"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Whole mung",
+        "qty": 70,
+        "unit": "g"
+      },
+      {
+        "name": "Tomato",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "qty": 20,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Sprouts%20chaat%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Sprouts%20chaat%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "guacamole-toast",
+    "slot": "snack",
+    "name": {
+      "en": "Guacamole toast",
+      "te": "గ్వాకమోలీ టోస్ట్",
+      "hi": "ग्वाकामोले टोस्ट"
+    },
+    "cook": 15,
+    "lead": 0,
+    "prep": {
+      "en": "Mash avocado; dice tomato",
+      "te": "అవకాడో మెదిపి టమాటా తరగండి",
+      "hi": "एवोकाडो मैश करें; टमाटर काटें"
+    },
+    "allergens": [
+      "wheat"
+    ],
+    "ingredients": [
+      {
+        "name": "Bread",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Avocado",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Tomato",
+        "qty": 20,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Guacamole%20toast%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Guacamole%20toast%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "masala-dosa-d",
+    "slot": "dinner",
+    "name": {
+      "en": "Masala dosa & chutney",
+      "te": "మసాలా దోశ & చట్నీ",
+      "hi": "मसाला डोसा और चटनी"
+    },
+    "cook": 35,
+    "lead": 480,
+    "prep": {
+      "en": "Ferment batter; boil potatoes",
+      "te": "పిండి పులియబెట్టి బంగాళాదుంప ఉడికించండి",
+      "hi": "घोल खमीर करें; आलू उबालें"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Dosa batter",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "Potato",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Coconut",
+        "qty": 30,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Masala%20dosa%20%26%20chutney%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Masala%20dosa%20%26%20chutney%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "rava-dosa-d",
+    "slot": "dinner",
+    "name": {
+      "en": "Rava dosa & chutney",
+      "te": "రవ్వ దోశ & చట్నీ",
+      "hi": "रवा डोसा और चटनी"
+    },
+    "cook": 30,
+    "lead": 30,
+    "prep": {
+      "en": "Mix thin batter 30 minutes ahead",
+      "te": "30 నిమిషాల ముందు పిండి కలపండి",
+      "hi": "30 मिनट पहले घोल बनाएं"
+    },
+    "allergens": [
+      "wheat"
+    ],
+    "ingredients": [
+      {
+        "name": "Semolina",
+        "qty": 70,
+        "unit": "g"
+      },
+      {
+        "name": "Rice flour",
+        "qty": 35,
+        "unit": "g"
+      },
+      {
+        "name": "Coconut",
+        "qty": 30,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Rava%20dosa%20%26%20chutney%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Rava%20dosa%20%26%20chutney%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "adai",
+    "slot": "dinner",
+    "name": {
+      "en": "Adai & avial",
+      "te": "అడై & అవియల్",
+      "hi": "अडई और अवियल"
+    },
+    "cook": 40,
+    "lead": 240,
+    "prep": {
+      "en": "Soak lentils and rice",
+      "te": "పప్పులు బియ్యం నానబెట్టండి",
+      "hi": "दाल और चावल भिगोएं"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Mixed lentils",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Rice",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Mixed vegetables",
+        "qty": 120,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Adai%20%26%20avial%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Adai%20%26%20avial%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "pesarattu-d",
+    "slot": "dinner",
+    "name": {
+      "en": "Pesarattu & ginger chutney",
+      "te": "పెసరట్టు & అల్లం చట్నీ",
+      "hi": "पेसरट्टू और अदरक चटनी"
+    },
+    "cook": 30,
+    "lead": 360,
+    "prep": {
+      "en": "Soak mung ahead",
+      "te": "పెసలు ముందుగా నానబెట్టండి",
+      "hi": "मूंग पहले भिगोएं"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Whole mung",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Ginger",
+        "qty": 10,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Pesarattu%20%26%20ginger%20chutney%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Pesarattu%20%26%20ginger%20chutney%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "chapati-dal",
+    "slot": "dinner",
+    "name": {
+      "en": "Chapati & moong dal",
+      "te": "చపాతీ & పెసరపప్పు",
+      "hi": "चपाती और मूंग दाल"
+    },
+    "cook": 35,
+    "lead": 20,
+    "prep": {
+      "en": "Knead dough; wash dal",
+      "te": "పిండి కలిపి పప్పు కడగండి",
+      "hi": "आटा गूंथें; दाल धोएं"
+    },
+    "allergens": [
+      "wheat"
+    ],
+    "ingredients": [
+      {
+        "name": "Wheat flour",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Moong dal",
+        "qty": 45,
+        "unit": "g"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Chapati%20%26%20moong%20dal%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Chapati%20%26%20moong%20dal%20recipe%20HomeCookingShow"
+      }
+    ]
+  },
+  {
+    "id": "lemon-sevai",
+    "slot": "dinner",
+    "name": {
+      "en": "Lemon sevai & vegetables",
+      "te": "నిమ్మ సేమియా & కూరగాయలు",
+      "hi": "नींबू सेवई और सब्ज़ियां"
+    },
+    "cook": 25,
+    "lead": 0,
+    "prep": {
+      "en": "Chop vegetables",
+      "te": "కూరగాయలు తరగండి",
+      "hi": "सब्ज़ियां काटें"
+    },
+    "allergens": [],
+    "ingredients": [
+      {
+        "name": "Rice vermicelli",
+        "qty": 75,
+        "unit": "g"
+      },
+      {
+        "name": "Mixed vegetables",
+        "qty": 70,
+        "unit": "g"
+      },
+      {
+        "name": "Lemon",
+        "qty": 0.5,
+        "unit": "piece"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hebbars Kitchen",
+        "url": "https://www.youtube.com/results?search_query=Lemon%20sevai%20%26%20vegetables%20recipe%20Hebbars%20Kitchen"
+      },
+      {
+        "title": "HomeCookingShow",
+        "url": "https://www.youtube.com/results?search_query=Lemon%20sevai%20%26%20vegetables%20recipe%20HomeCookingShow"
+      }
+    ]
+  }
+]

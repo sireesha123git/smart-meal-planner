@@ -1,66 +1,9 @@
+import recipes from '../catalog/recipes.json' with {type:'json'};
+import sides from '../catalog/dry-sides.json' with {type:'json'};
 export const people=['Sireesha','Vamsi','Samhit','Sanvika','Rajamannar','Padma'];
-// Recipe quantities are per adult-equivalent portion. Owner reviews portions at setup.
-const rows=[
-['idli','breakfast','Idli Sambar','ఇడ్లీ సాంబార్','इडली सांभर',30,480,'Idli batter:180:g;Sambar:150:ml','Ferment batter ahead','పిండి ముందుగా పులియబెట్టండి','घोल पहले तैयार करें',''],
-['pesarattu','breakfast','Pesarattu','పెసరట్టు','पेसरट्टू',25,360,'Whole mung:70:g;Rice:15:g','Soak mung ahead','పెసలు ముందుగా నానబెట్టండి','मूंग पहले भिगोएं',''],
-['poha','breakfast','Vegetable poha','అటుకుల ఉప్మా','वेज पोहा',20,0,'Poha:70:g;Mixed vegetables:60:g','Wash and chop vegetables','కూరగాయలు కడిగి తరగండి','सब्ज़ियां धोकर काटें',''],
-['uttapam','breakfast','Vegetable uttapam','వెజ్ ఊతప్పం','वेज उत्तपम',25,480,'Dosa batter:180:g;Mixed vegetables:60:g','Ferment batter ahead','పిండి ముందుగా పులియబెట్టండి','घोल पहले तैयार करें',''],
-['pongal','breakfast','Ven pongal','పొంగలి','पोंगल',30,0,'Rice:60:g;Moong dal:30:g;Ghee:5:g','Wash rice and dal','బియ్యం పప్పు కడగండి','चावल और दाल धोएं','milk'],
-['sandwich','breakfast','Vegetable sandwich','వెజ్ సాండ్‌విచ్','वेज सैंडविच',20,0,'Bread:80:g;Mixed vegetables:80:g','Chop vegetables','కూరగాయలు తరగండి','सब्ज़ियां काटें','wheat'],
-['dhokla','breakfast','Dhokla','ఢోక్లా','ढोकला',35,0,'Gram flour:70:g;Curd:30:ml','Prepare steamer','ఆవిరి పాత్ర సిద్ధం చేయండి','स्टीमर तैयार करें','milk'],
-['ragi','breakfast','Ragi dosa','రాగి దోశ','रागी डोसा',25,0,'Ragi flour:60:g;Rice flour:30:g','Mix batter','పిండి కలపండి','घोल मिलाएं',''],
-['pappu','lunch','Rice & pappu','అన్నం & పప్పు','चावल और दाल',35,0,'Rice:75:g;Toor dal:40:g','Cook dal','పప్పు ఉడికించండి','दाल पकाएं',''],
-['pulao','lunch','Vegetable pulao','వెజ్ పులావ్','वेज पुलाव',35,0,'Rice:80:g;Mixed vegetables:100:g','Wash rice; chop vegetables','బియ్యం కడిగి కూరగాయలు తరగండి','चावल धोएं; सब्ज़ियां काटें',''],
-['sambar-rice','lunch','Sambar rice','సాంబార్ అన్నం','सांभर चावल',40,0,'Rice:70:g;Toor dal:30:g;Mixed vegetables:80:g','Cook dal and vegetables','పప్పు కూరగాయలు ఉడికించండి','दाल और सब्ज़ियां पकाएं',''],
-['lemon-rice','lunch','Lemon rice','నిమ్మకాయ అన్నం','नींबू चावल',25,0,'Rice:80:g;Lemon:0.5:piece','Cook rice','అన్నం వండండి','चावल पकाएं',''],
-['curd-rice','lunch','Curd rice','పెరుగు అన్నం','दही चावल',25,0,'Rice:70:g;Curd:120:ml','Cook and cool rice','అన్నం వండి చల్లార్చండి','चावल पकाकर ठंडा करें','milk'],
-['chole','lunch','Chole & rice','చోలే & అన్నం','छोले चावल',45,480,'Chickpeas:70:g;Rice:70:g','Soak chickpeas ahead','శనగలు ముందుగా నానబెట్టండి','चना पहले भिगोएं',''],
-['biryani','lunch','Vegetable biryani','వెజ్ బిర్యానీ','वेज बिरयानी',45,0,'Rice:80:g;Mixed vegetables:120:g;Curd:30:ml','Chop vegetables','కూరగాయలు తరగండి','सब्ज़ियां काटें','milk'],
-['tomato-rice','lunch','Tomato rice','టమాటా అన్నం','टमाटर चावल',30,0,'Rice:80:g;Tomato:100:g','Chop tomatoes','టమాటాలు తరగండి','टमाटर काटें',''],
-['fruit','snack','Fruit salad','పండ్ల సలాడ్','फ्रूट सलाद',15,0,'Seasonal fruit:150:g','Wash and cut fruit','పండ్లు కడిగి కోయండి','फल धोकर काटें',''],
-['corn','snack','Corn chaat','మొక్కజొన్న చాట్','कॉर्न चाट',15,0,'Sweetcorn:120:g;Tomato:30:g','Cook corn','మొక్కజొన్న ఉడికించండి','मकई पकाएं',''],
-['quesadilla','snack','Mini vegetable quesadilla','మినీ వెజ్ కెసడిల్లా','मिनी वेज केसडिया',25,0,'Tortilla:60:g;Cheese:25:g;Mixed vegetables:60:g','Chop vegetables','కూరగాయలు తరగండి','सब्ज़ियां काटें','milk,wheat'],
-['hummus','snack','Hummus & pita','హమ్మస్ & పిటా','हम्मस और पीटा',20,480,'Chickpeas:50:g;Pita bread:50:g;Tahini:10:g','Soak and cook chickpeas ahead','శనగలు నానబెట్టి ఉడికించండి','चना भिगोकर पकाएं','sesame,wheat'],
-['sushi','snack','Vegetable sushi rolls','వెజ్ సుషి రోల్స్','वेज सुशी रोल',30,0,'Rice:50:g;Cucumber:40:g;Carrot:40:g;Nori:1:piece','Cook rice; cut vegetables','అన్నం వండి కూరగాయలు కోయండి','चावल पकाएं; सब्ज़ियां काटें',''],
-['pancake','snack','Mini banana pancakes','మినీ అరటి పాన్‌కేక్స్','मिनी केला पैनकेक',25,0,'Wheat flour:50:g;Banana:0.5:piece;Milk:60:ml','Mash banana; mix batter','అరటి మెదిపి పిండి కలపండి','केला मसलें; घोल मिलाएं','wheat,milk'],
-['falafel','snack','Baked falafel bites','బేక్డ్ ఫలాఫెల్','बेक्ड फलाफेल',40,480,'Chickpeas:60:g;Onion:20:g','Soak chickpeas ahead','శనగలు ముందుగా నానబెట్టండి','चना पहले भिगोएं',''],
-['sweet-potato','snack','Roasted sweet potato','చిలగడదుంప వేపుడు','भुनी शकरकंद',35,0,'Sweet potato:150:g','Wash and cut sweet potato','చిలగడదుంప కడిగి కోయండి','शकरकंद धोकर काटें',''],
-['upma','dinner','Upma & curd','ఉప్మా & పెరుగు','उपमा और दही',25,0,'Semolina:65:g;Mixed vegetables:60:g;Curd:80:ml','Chop vegetables','కూరగాయలు తరగండి','सब्ज़ियां काटें','wheat,milk'],
-['roti','dinner','Roti & vegetable curry','రోటీ & కూర','रोटी और सब्ज़ी',35,20,'Wheat flour:80:g;Mixed vegetables:150:g','Knead dough','పిండి కలపండి','आटा गूंथें','wheat'],
-['soup','dinner','Vegetable soup & toast','వెజ్ సూప్ & టోస్ట్','वेज सूप और टोस्ट',30,0,'Mixed vegetables:180:g;Bread:60:g','Chop vegetables','కూరగాయలు తరగండి','सब्ज़ियां काटें','wheat'],
-['khichdi','dinner','Vegetable khichdi','వెజ్ కిచిడీ','वेज खिचड़ी',30,0,'Rice:50:g;Moong dal:35:g;Mixed vegetables:80:g','Wash rice and dal','బియ్యం పప్పు కడగండి','चावल और दाल धोएं',''],
-['idiyappam','dinner','Idiyappam & vegetable stew','ఇడియప్పం & వెజ్ స్టూ','इडियप्पम और वेज स्टू',40,0,'Rice flour:70:g;Mixed vegetables:120:g;Coconut milk:60:ml','Prepare dough and vegetables','పిండి కూరగాయలు సిద్ధం చేయండి','आटा और सब्ज़ियां तैयार करें',''],
-['dosa','dinner','Dosa & coconut chutney','దోశ & కొబ్బరి పచ్చడి','डोसा और नारियल चटनी',30,480,'Dosa batter:180:g;Coconut:35:g','Ferment batter ahead','పిండి ముందుగా పులియబెట్టండి','घोल पहले तैयार करें',''],
-['appam','dinner','Appam & vegetable stew','అప్పం & వెజ్ స్టూ','अप्पम और वेज स्टू',35,480,'Appam batter:180:g;Mixed vegetables:100:g;Coconut milk:60:ml','Ferment batter ahead','పిండి ముందుగా పులియబెట్టండి','घोल पहले तैयार करें',''],
-['millet','dinner','Millet vegetable pongal','చిరుధాన్య పొంగలి','मिलेट पोंगल',35,0,'Millet:60:g;Moong dal:30:g;Mixed vegetables:70:g','Wash millet and dal','చిరుధాన్యం పప్పు కడగండి','मिलेट और दाल धोएं','']
-,
-['masala-dosa-b','breakfast','Masala dosa','మసాలా దోశ','मसाला डोसा',35,480,'Dosa batter:180:g;Potato:100:g;Onion:20:g','Ferment batter; boil potatoes','పిండి పులియబెట్టి బంగాళాదుంప ఉడికించండి','घोल खमीर करें; आलू उबालें',''],
-['rava-dosa-b','breakfast','Rava dosa','రవ్వ దోశ','रवा डोसा',30,30,'Semolina:70:g;Rice flour:35:g;Onion:20:g','Mix a thin batter 30 minutes ahead','30 నిమిషాల ముందు పలుచని పిండి కలపండి','30 मिनट पहले पतला घोल बनाएं','wheat'],
-['oats-upma','breakfast','Oats vegetable upma','ఓట్స్ వెజ్ ఉప్మా','ओट्स वेज उपमा',20,0,'Oats:70:g;Mixed vegetables:70:g','Chop vegetables','కూరగాయలు తరగండి','सब्ज़ियां काटें',''],
-['semiya','breakfast','Vegetable semiya','వెజిటబుల్ సేమియా','वेज सेवई',25,0,'Vermicelli:70:g;Mixed vegetables:70:g','Chop vegetables; roast vermicelli','కూరగాయలు తరిగి సేమియా వేయించండి','सब्ज़ियां काटें; सेवई भूनें','wheat'],
-['aloo-paratha','breakfast','Aloo paratha & curd','ఆలూ పరాఠా & పెరుగు','आलू पराठा और दही',35,0,'Wheat flour:80:g;Potato:100:g;Curd:60:ml','Boil potatoes; knead dough','బంగాళాదుంప ఉడికించి పిండి కలపండి','आलू उबालें; आटा गूंथें','wheat,milk'],
-['set-dosa','breakfast','Set dosa & vegetable saagu','సెట్ దోశ & సాగు','सेट डोसा और सागू',35,480,'Dosa batter:180:g;Mixed vegetables:100:g','Ferment batter; chop vegetables','పిండి పులియబెట్టి కూరగాయలు తరగండి','घोल खमीर करें; सब्ज़ियां काटें',''],
-['palak-dal','lunch','Rice & palak dal','అన్నం & పాలకూర పప్పు','चावल और पालक दाल',35,0,'Rice:75:g;Toor dal:40:g;Spinach:80:g','Wash spinach; cook dal','పాలకూర కడిగి పప్పు ఉడికించండి','पालक धोएं; दाल पकाएं',''],
-['rajma','lunch','Rajma & rice','రాజ్మా & అన్నం','राजमा चावल',45,480,'Kidney beans:70:g;Rice:70:g','Soak kidney beans overnight','రాజ్మా రాత్రంతా నానబెట్టండి','राजमा रात भर भिगोएं',''],
-['coconut-rice','lunch','Coconut rice','కొబ్బరి అన్నం','नारियल चावल',30,0,'Rice:80:g;Coconut:40:g','Cook rice; grate coconut','అన్నం వండి కొబ్బరి తురమండి','चावल पकाएं; नारियल कद्दूकस करें',''],
-['veg-kurma-rice','lunch','Rice & vegetable kurma','అన్నం & వెజ్ కుర్మా','चावल और वेज कुरमा',40,0,'Rice:75:g;Mixed vegetables:140:g;Coconut:25:g','Chop vegetables; prepare masala','కూరగాయలు తరిగి మసాలా సిద్ధం చేయండి','सब्ज़ियां काटें; मसाला तैयार करें',''],
-['tamarind-rice','lunch','Tamarind rice','పులిహోర','इमली चावल',30,0,'Rice:80:g;Tamarind:15:g;Peanuts:15:g','Cook rice; soak tamarind','అన్నం వండి చింతపండు నానబెట్టండి','चावल पकाएं; इमली भिगोएं','peanut'],
-['methi-rice','lunch','Methi vegetable rice','మెంతికూర వెజ్ రైస్','मेथी वेज चावल',35,0,'Rice:80:g;Fenugreek leaves:60:g;Mixed vegetables:80:g','Clean greens; chop vegetables','ఆకుకూర శుభ్రం చేసి కూరగాయలు తరగండి','मेथी साफ करें; सब्ज़ियां काटें',''],
-['momos','snack','Vegetable momos','వెజిటబుల్ మోమోస్','वेज मोमोज',40,0,'Wheat flour:60:g;Cabbage:50:g;Carrot:40:g','Make dough; finely chop filling','పిండి కలిపి పూరణ తరగండి','आटा बनाएं; भरावन बारीक काटें','wheat'],
-['bruschetta','snack','Tomato bruschetta','టమాటా బ్రుషెట్టా','टोमैटो ब्रुशेटा',20,0,'Bread:60:g;Tomato:60:g;Basil:5:g','Dice tomatoes','టమాటాలు చిన్నగా తరగండి','टमाटर बारीक काटें','wheat'],
-['rice-paper-rolls','snack','Vegetable rice paper rolls','వెజ్ రైస్ పేపర్ రోల్స్','वेज राइस पेपर रोल',25,0,'Rice paper:3:piece;Cucumber:40:g;Carrot:40:g','Julienne vegetables','కూరగాయలు సన్నగా కోయండి','सब्ज़ियां पतली काटें',''],
-['potato-wedges','snack','Baked potato wedges','బేక్డ్ పొటాటో వెడ్జెస్','बेक्ड पोटैटो वेजेस',35,0,'Potato:160:g','Wash, cut and season potatoes','బంగాళాదుంప కడిగి కోసి మసాలా వేయండి','आलू धोकर काटें और मसाला लगाएं',''],
-['sprouts-chaat','snack','Sprouts chaat','మొలకల చాట్','स्प्राउट्स चाट',15,480,'Whole mung:70:g;Tomato:30:g;Onion:20:g','Soak and sprout mung ahead','పెసలు నానబెట్టి మొలకలు సిద్ధం చేయండి','मूंग भिगोकर अंकुरित करें',''],
-['guacamole-toast','snack','Guacamole toast','గ్వాకమోలీ టోస్ట్','ग्वाकामोले टोस्ट',15,0,'Bread:60:g;Avocado:80:g;Tomato:20:g','Mash avocado; dice tomato','అవకాడో మెదిపి టమాటా తరగండి','एवोकाडो मैश करें; टमाटर काटें','wheat'],
-['masala-dosa-d','dinner','Masala dosa & chutney','మసాలా దోశ & చట్నీ','मसाला डोसा और चटनी',35,480,'Dosa batter:180:g;Potato:100:g;Coconut:30:g','Ferment batter; boil potatoes','పిండి పులియబెట్టి బంగాళాదుంప ఉడికించండి','घोल खमीर करें; आलू उबालें',''],
-['rava-dosa-d','dinner','Rava dosa & chutney','రవ్వ దోశ & చట్నీ','रवा डोसा और चटनी',30,30,'Semolina:70:g;Rice flour:35:g;Coconut:30:g','Mix thin batter 30 minutes ahead','30 నిమిషాల ముందు పిండి కలపండి','30 मिनट पहले घोल बनाएं','wheat'],
-['adai','dinner','Adai & avial','అడై & అవియల్','अडई और अवियल',40,240,'Mixed lentils:80:g;Rice:30:g;Mixed vegetables:120:g','Soak lentils and rice','పప్పులు బియ్యం నానబెట్టండి','दाल और चावल भिगोएं',''],
-['pesarattu-d','dinner','Pesarattu & ginger chutney','పెసరట్టు & అల్లం చట్నీ','पेसरट्टू और अदरक चटनी',30,360,'Whole mung:80:g;Ginger:10:g','Soak mung ahead','పెసలు ముందుగా నానబెట్టండి','मूंग पहले भिगोएं',''],
-['chapati-dal','dinner','Chapati & moong dal','చపాతీ & పెసరపప్పు','चपाती और मूंग दाल',35,20,'Wheat flour:80:g;Moong dal:45:g','Knead dough; wash dal','పిండి కలిపి పప్పు కడగండి','आटा गूंथें; दाल धोएं','wheat'],
-['lemon-sevai','dinner','Lemon sevai & vegetables','నిమ్మ సేమియా & కూరగాయలు','नींबू सेवई और सब्ज़ियां',25,0,'Rice vermicelli:75:g;Mixed vegetables:70:g;Lemon:0.5:piece','Chop vegetables','కూరగాయలు తరగండి','सब्ज़ियां काटें','']
-];
-export const catalog=rows.map(([id,slot,en,te,hi,cook,lead,items,prepEn,prepTe,prepHi,allergens])=>({id,slot,name:{en,te,hi},cook,lead,prep:{en:prepEn,te:prepTe,hi:prepHi},allergens:allergens?allergens.split(','):[],ingredients:items.split(';').map(i=>{const[name,qty,unit]=i.split(':');return{name,qty:+qty,unit}}),videos:[{title:'Hebbars Kitchen',url:'https://www.youtube.com/results?search_query='+encodeURIComponent(en+' recipe Hebbars Kitchen')},{title:'HomeCookingShow',url:'https://www.youtube.com/results?search_query='+encodeURIComponent(en+' recipe HomeCookingShow')}]}));
-export const drySides=[['okra','Okra stir-fry','బెండకాయ వేపుడు','भिंडी की सूखी सब्ज़ी'],['beans','Beans stir-fry','బీన్స్ పొడి కూర','बीन्स की सूखी सब्ज़ी'],['carrot','Carrot stir-fry','క్యారెట్ పొడి కూర','गाजर की सूखी सब्ज़ी'],['cabbage','Cabbage stir-fry','క్యాబేజీ పొడి కూర','पत्तागोभी की सूखी सब्ज़ी'],['ivy-gourd','Ivy gourd stir-fry','దొండకాయ వేపుడు','कुंदरू की सूखी सब्ज़ी'],['beetroot','Beetroot stir-fry','బీట్‌రూట్ పొడి కూర','चुकंदर की सूखी सब्ज़ी'],['cauliflower','Cauliflower stir-fry','కాలీఫ్లవర్ పొడి కూర','फूलगोभी की सूखी सब्ज़ी']].map(([id,en,te,hi])=>({id,name:{en,te,hi}}));
+
+export const catalog=recipes;
+export const drySides=sides;
 export const slots=['breakfast','lunch','snack','dinner'];
 export const schedule=[['06:00','milk',['Sireesha','Samhit','Sanvika']],['07:00','breakfast',people],['09:00','milk',['Rajamannar','Padma']],['10:30','tea',['Sireesha','Vamsi']],['11:30','tea',['Rajamannar','Padma']],['12:00','lunch',people],['12:30','buttermilk',['Sireesha','Padma','Vamsi']],['16:00','snack',people],['16:30','milk',['Sireesha','Samhit','Sanvika']],['16:30','tea',['Vamsi','Rajamannar','Padma']],['19:00','dinner',people],['19:30','buttermilk',['Sireesha','Padma','Vamsi']]];
 export const today=()=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
@@ -74,4 +17,4 @@ export function generate(start,settings,existing=[],history=[]){
  return result;
 }
 export function services(plan,date,settings){return schedule.map(([time,kind,recipients],index)=>{const meal=plan.find(x=>x.date===date&&x.slot===kind),r=catalog.find(x=>x.id===meal?.recipeId),at=Date.parse(date+'T'+time+':00+05:30');return{id:date+'_'+index,date,time,kind,recipients,recipeId:r?.id||null,meal,at,prepAt:at-(r?(r.cook+r.lead):10)*60000,readyAt:at-(r?.cook||10)*60000,enabled:!slots.includes(kind)||Boolean(meal?.confirmed&&r),name:r?.name||{en:kind,te:kind==='milk'?'పాలు':kind==='tea'?'టీ':kind==='buttermilk'?'మజ్జిగ':kind,hi:kind==='milk'?'दूध':kind==='tea'?'चाय':kind==='buttermilk'?'छाछ':kind}}})}
-export function groceryTotals(plans,settings){const totals=new Map(),factor=Object.values(settings.portions||{}).reduce((a,v)=>a+Number(v),0)||6;function add(name,qty,unit){const k=name+'|'+unit;totals.set(k,{name,unit,qty:Math.round(((totals.get(k)?.qty||0)+qty)*100)/100})}for(const m of plans.filter(m=>m.confirmed)){const r=catalog.find(r=>r.id===m.recipeId);r?.ingredients.forEach(i=>add(i.name,i.qty*factor,i.unit));if(m.slot==='lunch'){const side=drySides.find(d=>d.id===m.drySide);if(side)add(side.name.en.replace(' stir-fry',''),100*factor,'g');add(m.liquid||'Rasam / Kattu / Sambar',150*2,'ml')}}return [...totals.values()]}
+export function groceryTotals(plans,settings){const totals=new Map(),factor=Object.values(settings.portions||{}).reduce((a,v)=>a+Number(v),0)||6;function add(name,qty,unit){const k=name+'|'+unit;totals.set(k,{name,unit,qty:Math.round(((totals.get(k)?.qty||0)+qty)*100)/100})}for(const m of plans.filter(m=>m.confirmed)){const r=catalog.find(r=>r.id===m.recipeId);r?.ingredients.forEach(i=>add(i.name,i.qty*factor,i.unit));if(m.slot==='lunch'){const side=drySides.find(d=>d.id===m.drySide);side?.ingredients?.forEach(i=>add(i.name,i.qty*factor,i.unit));add(m.liquid||'Rasam / Kattu / Sambar',150*2,'ml')}}return [...totals.values()]}

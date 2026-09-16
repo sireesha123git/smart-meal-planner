@@ -26,3 +26,7 @@ Open `http://localhost:4180`. Data is stored in `data/family-table.sqlite`.
 The production site runs as a Cloudflare Worker with D1 through OpenAI Sites. Build the Android app with the same HTTPS origin in `APP_API_URL`. Set `APK_URL` to the published APK so the Master settings page displays the download QR code.
 
 The APK must be signed with a private release keystore. The keystore and passwords must never be committed.
+
+## Recipe catalogue maintenance
+
+Recipes live in `catalog/recipes.json` and `catalog/dry-sides.json`; see `catalog/README.md`. The catalogue can be refreshed independently of planner code. Run `npm run recipes:validate` after edits. The policy file records a six-month refresh interval and the expansion target of six dry and six gravy preparations per Bengaluru vegetable, plus a rotating India-and-world snack library for children.
