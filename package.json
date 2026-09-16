@@ -1,0 +1,7 @@
+{
+  "name": "family-table", "version": "1.0.0", "private": true, "type": "module",
+  "engines": {"node": ">=24.13.0"},
+  "scripts": {"build": "node scripts/build.mjs", "start": "node server/index.mjs", "test": "node --test tests/*.test.mjs", "db:generate": "drizzle-kit generate", "android:sync": "npm run build:android && cap sync android", "build:android": "node scripts/build-android.mjs"},
+  "dependencies": {"@capacitor/core": "^8.0.0", "@capacitor/android": "^8.0.0", "@capacitor/local-notifications": "^8.0.0", "@capacitor/preferences": "^8.0.0", "qrcode": "^1.5.4"},
+  "devDependencies": {"@capacitor/cli": "^8.0.0", "drizzle-kit": "^0.31.0", "drizzle-orm": "^0.44.0", "esbuild": "^0.25.0"}
+}

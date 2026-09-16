@@ -1,0 +1,10 @@
+import {build} from 'esbuild';
+import {mkdir,copyFile,writeFile,rm,cp} from 'node:fs/promises';
+await rm('dist',{recursive:true,force:true});await mkdir('dist/client',{recursive:true});await mkdir('dist/server',{recursive:true});await mkdir('dist/.openai',{recursive:true});
+await cp('public','dist/client',{recursive:true});
+await build({entryPoints:['src/app.js'],bundle:true,format:'esm',outfile:'dist/client/app.js',minify:true,define:{__API_URL__:JSON.stringify(process.env.APP_API_URL||'')}});
+await build({entryPoints:['worker/index.js'],bundle:true,format:'esm',outfile:'dist/server/index.js',minify:true,external:['cloudflare:workers']});
+await copyFile('src/style.css','dist/client/style.css');
+await copyFile('.openai/hosting.json','dist/.openai/hosting.json');
+await cp('drizzle','dist/.openai/drizzle',{recursive:true});
+await writeFile('dist/client/build.json',JSON.stringify({version:'1.0.0',builtAt:new Date().toISOString()}));

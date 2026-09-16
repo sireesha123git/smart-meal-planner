@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {generate,groceryTotals,services,catalog,drySides,addDays} from '../src/planner.js';
+
+const settings={people:['A','B','Elder'],elders:['Elder'],portions:{A:1,B:1,Elder:1},excludes:[],rules:{noRepeatDays:7}};
+test('weekly generation creates four meals per day without same-slot repeats',()=>{const plan=generate('2026-09-14',settings);assert.equal(plan.length,28);for(const slot of ['breakfast','lunch','snack','dinner']){const ids=plan.filter(x=>x.slot===slot).map(x=>x.recipeId);assert.equal(new Set(ids).size,7)}assert.ok(plan.filter(x=>x.slot==='lunch').every(x=>x.drySide&&x.liquid))});
+test('served or started meals remain fixed during replanning',()=>{const base=generate('2026-09-14',settings),fixed={...base[0],confirmed:true,startedAt:new Date().toISOString()};const next=generate('2026-09-14',settings,[fixed]);assert.equal(next[0].recipeId,fixed.recipeId)});
+test('allergen restrictions remove matching dishes and report a conflict if variety runs out',()=>{const plan=generate('2026-09-14',{...settings,excludes:['milk']});for(const x of plan){const r=catalog.find(r=>r.id===x.recipeId);if(r)assert.ok(!r.allergens.includes('milk'));else assert.match(x.conflict,/No non-repeating dish/)}});
+test('groceries include lunch dry side and elder liquid',()=>{const plans=generate('2026-09-14',settings).map(x=>({...x,confirmed:true}));const list=groceryTotals(plans,settings);assert.ok(list.some(x=>drySides.some(d=>d.name.en.replace(' stir-fry','')===x.name)));assert.ok(list.some(x=>x.name==='Rasam / Kattu'))});
+test('services use Padma consistently and create prep deadlines',()=>{const date='2026-09-14',plan=generate(date,settings).map(x=>({...x,confirmed:true})),out=services(plan.filter(x=>x.date===date),date,settings);assert.equal(out.length,12);assert.ok(out.some(x=>x.recipients.includes('Padma')));assert.ok(out.every(x=>x.prepAt<x.at));assert.equal(out.filter(x=>x.time==='16:30').length,2)});
+test('recent history prevents an immediate repeat where alternatives exist',()=>{const start='2026-09-21',history=[{date:addDays(start,-1),slot:'breakfast',recipeId:'idli',servedAt:'2026-09-20T07:00:00Z'}];const plan=generate(start,settings,[],history);assert.notEqual(plan[0].recipeId,'idli')});
